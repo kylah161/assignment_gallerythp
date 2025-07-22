@@ -1,0 +1,198 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <title>Practice with Forms</title>
+  <link rel="stylesheet" type="text/css" href="WEB DOCUMENTS/forms.css">
+</head>
+
+<body>
+ <div id="main">   <!-- The div that holds everything on the webpage. -->
+       <div id="nav">    <!-- The navigation bar div. -->
+         <ul>
+            <li>Home</li>
+            <li>Coursework</li>
+            <li>Hobbies</li>
+            <li>Resume</li>
+
+         </ul>
+
+
+       </div>     <!-- Closes the navigation div. -->
+
+              <div id="container">    <!-- The div that holds the form, etc. -->
+
+
+      <form action="https://formspree.io/f/mblkjlvb" method="POST">
+           <fieldset>
+               <legend>Customer Information</legend>
+
+                 <label>
+                     Name:
+                     <input type="type="fullname" name="fullname">
+                 </label> <br>
+
+                 <label>
+                  Street Address:
+                  <input type="type="address" name="address">
+                 </label>  <br>
+
+                 <label>
+                 City:
+                <input type="city" name="city">
+                </label> <br>
+
+                 <label>
+                     State:
+                     <input type="state"  name="state">
+                     </label> <br>
+
+                     <label>
+                         Postal Code:
+                     `<input type="zip"  name="zip">
+                     </label>  <br>
+
+
+                     <label>
+                         Phone Number:
+                     `<input type="phone"  name="phone">
+                     </label>  <br>
+
+                     <label>
+                     Email:
+                     <input type="email" name="email" >
+                     </label>    <br>
+
+
+                     <label>             <!--This begins the select list.-->
+                         Where Did You Hear About Us?
+                         <select>
+                             <option value="commercial">Commercial</option>
+                             <option value="billboard">Billboard</option>
+                             <option value="internet">Internet</option>
+                             <option value="magazine">Magazine</option>
+                         </select>       <!--This ends the select list.-->
+                     </label>  <br>
+
+                   <label>
+                       What's your favorite Red Ball special dish?
+                       <input type="fav"  name="fav"
+                   </label>  <br>
+
+                 <label>                 <!--This is a spin box .-->
+                     How many time do you dine out per month?
+                     <input type="number" min="0" max="20" step="1" value="1">
+                 </label> <br>
+                                             <!--This is a check box.-->
+                       <input type="checkbox"  id="newsletter" name="newsletter" value="newsletter">
+                        <label for="newsletter"> Add me to your newsletter for great specials</label>
+                        <br>
+                        </fieldset>
+
+
+                          <fieldset>
+                          <legend>Share Your  Experience at Red Ball Pizza</legend>
+
+                        <label for="visit">Date of Visit</label>
+                         <input type="date"  id="visit" name="visit">    <br>
+
+                           <label>             <!--This begins the select list.-->
+                           Order Type
+                         <select>
+                             <option value="pepperoni">Pepperoni</option>
+                             <option value="meat lovers">Meat Lovers</option>
+                             <option value="supreme">Supreme</option>
+                             <option value="cheese">Cheese</option>
+                         </select>       <!--This ends the select list.-->
+                     </label>   <br>
+
+                    Was your service friendly?
+                    <input type="radio" name="service" id="service" value="service">Yes
+                      <input type="radio" name="service" id="service" value="service">No
+                      <br>
+
+
+
+                <label>
+                        Tell us more about your experience:<br>
+                       <textarea name="message" cols="50" rows"5"></textarea>
+                </label>
+                           <!-- your other form filds go here -->
+                         <br>  <button type="submit">Submit</button>
+
+                 </fieldset>
+      </form>
+
+
+
+
+              </div>       <!-- Closes the container div. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ </div>         <!-- Closes the main div. -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

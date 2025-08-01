@@ -1,6 +1,6 @@
 /* Set background image for the body */
 body {
-    background-image: url("dance.jpg");
+    background-image: dance.zip("dance.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;

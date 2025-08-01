@@ -1,0 +1,33 @@
+/* Set background image for the body */
+body {
+    background-image: url("dance.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the container with white background and 0.5 transparency */
+.container {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/* Optional: Style header */
+.header {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+    text-shadow: 1px 1px 2px black;
+}
+
+/* Optional: Style labels and legends */
+.special {
+    font-weight: bold;
+}

@@ -1,22 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Music Survey</title>
-    <!-- 1. Link the survey.css file to the html document. -->
     <link rel="stylesheet" href="survey.css">
 </head>
 <body>
     <div class="header">
-        <!-- 2. In the header <div>, add the paragraph, "Survey Form". -->
-        <p>Survey Form</p>
+        <h1><p>Survey Form</p></h1>
     </div>
 
     <div class="container">
-        <!-- 3. In the container <div>, create a form. -->
-        <form action="YOUR_FORMSPREE_ENDPOINT" method="POST">
-            <!-- 4. Inside the form, create an h2 that says "Music Survey". -->
+        <form action="https://formspree.io/f/mblkjlvb" method="POST">
             <h2>Music Survey</h2>
 
             <!-- Add the remaining elements to complete the form. -->
@@ -55,14 +49,17 @@
             </fieldset>
 
             <fieldset>
-                <legend class="special">Select the locations you listen to Music:</legend><br>
-                <input type="checkbox" id="home" name="listen_location" value="At home">
-                <label for="home">At home</label><br>
-                <input type="checkbox" id="car" name="listen_location" value="In the car">
-                <label for="car">In the car</label><br><br>
+                  <label class="special">Select the locations you listen to Music:</label><br>
+            <select name="genre" required>
+                <option value="">--Please choose--</option>
+                <option value="at home">At home</option>
+                <option value="in the car">In the car</option>
+                <option value="anywhere">Anywhere (MP3 Player)</option>
+            </select><br><br>
             </fieldset>
 
-            <input type="submit" value="Submit Survey">
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
         </form>
     </div>
 </body>

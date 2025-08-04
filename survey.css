@@ -1,4 +1,4 @@
-Add the dance.jpg as a background image to the body declaration block. */
+
 body {
     background-image: url('dance.jpg');
     background-size: cover;

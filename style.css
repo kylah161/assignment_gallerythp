@@ -1,20 +1,20 @@
 body {
   font-family: Arial, sans-serif;
   background-color: #F5F5F5;
-  color: #2C0E37;
+  color: #502274;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #2C0E37;
+  background-color: #A42CD6;
   color: #F5F5F5;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #3D52D5;
+  background-color: #502274;
   text-align: center;
 }
 
@@ -27,7 +27,7 @@ nav a {
 
 nav a:hover {
   background-color: #90C2E7;
-  color: #2C0E37;
+  color: #502274;
 }
 
 .container {
@@ -41,28 +41,30 @@ table {
 }
 
 th, td {
-  border: 1px solid #2C0E37;
+  border: 1px solid #502274;
   padding: 10px;
   text-align: left;
 }
 
 button {
   background-color: #D0A5C0;
-  color: #2C0E37;
+  color: #502274;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
+  font-weight: bold;
 }
 
 button:hover {
   background-color: #90C2E7;
-  color: #2C0E37;
+  color: #502274;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   width: 100%;
   padding: 8px;
   margin: 5px 0;
-  border: 1px solid #3D52D5;
+  border: 1px solid #A42CD6;
   border-radius: 4px;
 }

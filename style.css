@@ -1,25 +1,25 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #F3D9B1;
-  color: #000000;
+  background-color: #F5F5F5;
+  color: #2C0E37;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #CC59D2;
-  color: white;
+  background-color: #2C0E37;
+  color: #F5F5F5;
   padding: 20px;
   text-align: center;
 }
 
 nav {
-  background-color: #4DA167;
+  background-color: #3D52D5;
   text-align: center;
 }
 
 nav a {
-  color: white;
+  color: #F5F5F5;
   padding: 14px 20px;
   text-decoration: none;
   display: inline-block;
@@ -27,7 +27,7 @@ nav a {
 
 nav a:hover {
   background-color: #90C2E7;
-  color: #000000;
+  color: #2C0E37;
 }
 
 .container {
@@ -37,23 +37,32 @@ nav a:hover {
 table {
   width: 100%;
   border-collapse: collapse;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
 }
 
 th, td {
-  border: 1px solid #000000;
+  border: 1px solid #2C0E37;
   padding: 10px;
   text-align: left;
 }
 
 button {
-  background-color: #CC59D2;
-  color: white;
+  background-color: #D0A5C0;
+  color: #2C0E37;
   padding: 10px 15px;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #4DA167;
+  background-color: #90C2E7;
+  color: #2C0E37;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #3D52D5;
+  border-radius: 4px;
 }
